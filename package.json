@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Compatibility-based application to find friends with similar interests.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkchung8/friend-finder.git"
+  },
+  "keywords": [],
+  "author": "Miyoung K Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkchung8/friend-finder/issues"
+  },
+  "homepage": "https://github.com/mkchung8/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
