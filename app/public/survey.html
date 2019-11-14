@@ -24,47 +24,184 @@
 </head>
 
 <body>
+
     <div class="container">
+
         <div class="jumbotron jumbotron-fluid">
+            
             <div class="container">
                 <h1 class="display-4">Forest Friend Finder &hearts;</h1>
                 <p class="lead">Fill out your information and answer the following questions. Hit the 'Submit' button to
                     find your match!
                 </p>
-                <a href="/survey"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span> Find My Forest
-                        Friend</button></a>
+                <a href="/"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span>Back to Home</button></a>
                 <a href="/api/friends"><button class="btn btn-warning btn-lg"><span class="fa fa-eye"></span> View
                         All Friends </button></a>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 mx-auto">
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3><strong>Friend Finder Survey</strong></h3>
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+
+                            <div class="form-group">
+                                <label for="inputName">
+                                    <h4><strong>Your Name: </strong></h4>
+                                </label>
+                                <input type="name" class="form-control" id="inputName"
+                                    placeholder="First Name, Last Name">
+                                <br>
+                                <label for="inputInsta">
+                                    <h4><strong>Instagram Username: </strong></h4>
+                                </label>
+                                <input type="username" class="form-control" id="inputInsta"
+                                    placeholder="instagram.com/username">
+                            </div>
+                            <br>
+                            <!--Start of Survey Questions-->
+                            <div class="form-group">
+                                <h4>Question #1</h4><h5>I enjoy heavy bass music.</h5>
+                                <select class="form-control" id="q1Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                <h4>Question #2</h4>
+                                <h5>I prefer Bassrush Curated Tripoli over Gud Vibrations</h5>
+                                <select class="form-control" id="q2Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #3</h4>
+                                <h5>This is where question 3 goes.</h5>
+                                <select class="form-control" id="q3Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #4</h4>
+                                <h5>This is where question 4 goes. </h5>
+                                <select class="form-control" id="q4Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #5</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q5Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #6</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q6Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #7</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q7Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #8</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q8Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #9</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q9Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                            <div class="form-group">
+                                <h4>Question #10</h4>
+                                <h5></h5>
+                                <select class="form-control" id="q10Input">
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2 (Somewhat Disagree)</option>
+                                    <option value="3">3 (Neutral)</option>
+                                    <option value="4">4 (Somewhat Agree)</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div><br>
+
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <form>
-                <div class="form-group">
-                    <label for="inputName">Name: </label>
-                    <input type="name" class="form-control" id="inputName" placeholder="First and Last Name">
 
-                    <label for="inputInsta">Instagram Username</label>
-                    <input type="username" class="form-control" id="inputInsta" placeholder="Instagram Username">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-        </div>
-    </div>
 
-    
-    </div>
-    </div>
+
+
+
+
 
 
 </body>

@@ -10,7 +10,8 @@ const PORT = process.env.PORT || 3000;
 // Middleware (Data Parsing)
 app.use(express.json());                              
 app.use(express.urlencoded({ extended: true }));      
-app.use(express.static(__dirname + "public"));
+
+
 
 // Routing Links
 const apiRoutes = require("./app/routing/apiRoutes.js"); 
