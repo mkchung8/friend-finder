@@ -11,19 +11,60 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!--Bootstrap Link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Link to external style sheet-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
     <!--Link to external javascript-->
-    <script type="text/javascript" src="../server.js"></script>
+    <script type="text/javascript" src="../../server.js"></script>
 
 </head>
 
 <body>
-    <h1>Friend Finder Survey</h1>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Forest Friend Finder &hearts;</h1>
+                <p class="lead">Fill out your information and answer the following questions. Hit the 'Submit' button to
+                    find your match!
+                </p>
+                <a href="/survey"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span> Find My Forest
+                        Friend</button></a>
+                <a href="/api/friends"><button class="btn btn-warning btn-lg"><span class="fa fa-eye"></span> View
+                        All Friends </button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <form>
+                <div class="form-group">
+                    <label for="inputName">Name: </label>
+                    <input type="name" class="form-control" id="inputName" placeholder="First and Last Name">
+
+                    <label for="inputInsta">Instagram Username</label>
+                    <input type="username" class="form-control" id="inputInsta" placeholder="Instagram Username">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+        </div>
+    </div>
+
+    
+    </div>
+    </div>
 
 
 </body>
