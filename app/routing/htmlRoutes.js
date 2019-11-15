@@ -2,7 +2,8 @@
 const path = require('path');
 
 // Export HTML Routes
-module.exports = function htmlRoutes(app) {
+
+function htmlRoutes(app) {
 
     app.get("/", function (req, res) {
         console.log(`/ called`);
@@ -15,3 +16,4 @@ module.exports = function htmlRoutes(app) {
     });
 };
 
+module.exports = htmlRoutes; 

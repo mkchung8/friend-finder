@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friend Finder</title>
+    <title>Pet Findr</title>
 
     <!--Link to jQuery Library-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,12 +14,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--Link to external style sheet-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-
+    <!--External Links for Styling-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
     <!--Link to external javascript-->
-    <script type="text/javascript" src="../../server.js"></script>
+    <script type="text/javascript" src="./home.js"></script> 
+    
+    
 
 </head>
 
@@ -27,21 +30,25 @@
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Forest Friend Finder &hearts;</h1>
-                <p class="lead">Looking for someone to explore Electric Forest with? Take to survey to find your Forest
-                    Friend!
+                <h1 class="display-4">Pet Findr &#x1f43e; &hearts;</h1>
+                <p class="lead">Looking for a new furry frendo? Take the survey to find your perfect pet!
                 </p>
                 <br>
-                <a href="/survey"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span> Find My Forest
-                        Friend</button></a>
+                <a href="/survey"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span>Find My Pet </button></a>
                 <a href="/api/friends"><button class="btn btn-warning btn-lg"><span class="fa fa-eye"></span> View
-                        All Fwends </button></a>
+                        All Available Pets </button></a>
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-12 mx-auto">
-                <img class="img-fluid mx-auto" src="https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2017/11/13144051/Electric-Forest-hero-image-972x4861.jpg">
+        <div class="row text-center">
+            <div style="align-content: center;" class="col-12">
+                
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/44/cc/be/44ccbe6b8e4cd15f7c1c02b4a6ebc086.jpg">
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/b2/8a/bc/b28abccc1798af2b0ecadca68c6531d5.jpg">
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/83/5f/1c/835f1c2b5da68df27158c3995f44cab6.jpg">
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/b1/3c/6f/b13c6f103cdfccf908e33aaa86c1c7b2.jpg">
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/e7/bf/54/e7bf54744ddb898d4fcf5c335725e329.jpg">
+                <img style="height:250px; width:300px;" class="img-thumbnail" src="https://i.pinimg.com/474x/bf/a5/ce/bfa5cede15c6f1dbe2f891d7c75e2d8a.jpg">
             </div>
         </div>
         

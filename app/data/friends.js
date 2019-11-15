@@ -1,4 +1,4 @@
-module.exports = [
+const friends = [
     {
         id: 1, 
         name: "Chad Chadson", 
@@ -19,4 +19,6 @@ module.exports = [
     }
     
    
-]
+];
+
+module.exports = friends;

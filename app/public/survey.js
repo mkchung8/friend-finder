@@ -1,0 +1,1 @@
+console.log('survey.js is connected and working')

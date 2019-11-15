@@ -1,6 +1,7 @@
 const path = require('path'); 
+const friends = require('../data/friends.js')
 
-module.exports = function apiRoutes(app) {
+function apiRoutes(app) {
     app.get("/api/friends", function (req, res) {
         console.log(`/api/friends called`);
         res.json(friends); 
@@ -19,4 +20,6 @@ module.exports = function apiRoutes(app) {
         }
         return res.json(false); 
     });
-}
+};
+
+module.exports = apiRoutes; 
