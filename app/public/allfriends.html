@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Findr</title>
+
+    <!--Link to jQuery Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--External Links for Styling-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Pet Findr &#x1f43e; &hearts;</h1>
+                <p class="lead">Looking for a new furry frendo? Take the survey to find your perfect pet!
+                </p>
+                <br>
+                <a href="/survey"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span>Find My Pet
+                    </button></a>
+                <a href="/AllFriends"><button class="btn btn-warning btn-lg"><span class="fa fa-eye"></span> View
+                        All Available Pets </button></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="card" id="allFriendsDiv">
+            <h4 class="card-header text-center">All Matches</h4>
+          </div>
+    </div>
+
+
+</body>
+
+<!--Link to external javascript-->
+<script type="text/javascript" src="./allfriends.js"></script>
+
+</html>

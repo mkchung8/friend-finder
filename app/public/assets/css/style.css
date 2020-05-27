@@ -2,3 +2,21 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+.bold {
+    font-weight: bold; 
+    border-bottom: 3px solid black; 
+}
+
+#result-image {
+    height: 400px; 
+    width: auto;
+    margin-bottom: 30px; 
+}
+
+.btn.btn-primary {
+    margin-top: 20px; 
+}
+
+.all-image {
+    margin-bottom: 20px;
+}

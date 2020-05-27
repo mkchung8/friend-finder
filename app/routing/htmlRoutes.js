@@ -14,6 +14,11 @@ function htmlRoutes(app) {
         console.log(`/survey called`);
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
+
+    app.get("/AllFriends", function(req, res){
+        console.log('/AllFriends Called'); 
+        res.sendFile(path.join(__dirname, "../public/allfriends.html")); 
+    })
 };
 
 module.exports = htmlRoutes; 
