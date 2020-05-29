@@ -13,7 +13,7 @@ To begin using the application, start by clicking the link to the live demo vers
 Users are able to navigate to the survey from the home page or view all possible matches that are available. 
 To fill out the survey, input your name into the form and select the best answer for each question. Click 'Submit' to reveal your best match. 
 
-<img src = "./assets/PetFindr.gif">
+<img src = "./app/public/assets/PetFindr.gif">
 
 # Technologies Used
 * HTML/CSS
